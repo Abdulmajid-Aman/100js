@@ -1,0 +1,45 @@
+#main-container {
+   border: none;
+    border-radius: 4px;
+    box-shadow: 1px 1px 11px rgba(0, 0, 0, 0.5);
+    width: 700px;
+    margin: 100px auto;
+}
+
+
+#info-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#bill-el,
+#tip-el {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 7px;
+    border-radius: 4px;
+    width: 600px;
+    border: 1px solid grey
+}
+
+#btn-el {
+    padding: 8px;
+    width: 616px;
+    font-size: 20px;
+    background-color: limegreen;
+    cursor: pointer;
+    margin-bottom: 5px;
+    border: none;
+    color: white;
+}
+
+#btn-el:hover {
+    background-color: lime;
+}
+
+#total-el {
+    display: flex;
+    font-size: 24px;
+    justify-content: flex-start;
+}
