@@ -23,11 +23,20 @@ body {
     color: rgb(154, 205, 50);
     padding: 25px 20px;
     text-align: left;
-    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.open::after {
+    content: '\229E';
 }
 
 .line {
     border-bottom: 1px solid grey;
+}
+
+.line::after {
+    content:\229F '';
 }
 
 .panel {
@@ -38,4 +47,6 @@ body {
 .active {
     display: block;
 }
+
+
 
