@@ -1,0 +1,58 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* White text color for contrast */
+}
+
+/* Main container styles */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+/* Navbar styles */
+.nav-bar {
+    display: flex;
+    background-color: #1e1e1e; /* Dark background for the nav bar */
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded corners for the nav bar */
+    margin-bottom: 20px; /* Space between nav and content */
+}
+
+/* Step styles */
+.step {
+    margin: 0 15px; /* Spacing between steps */
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Hover effect */
+.step:hover {
+    background-color: #3e3e3e; /* Change color on hover */
+}
+
+/* Content container styles */
+.content-container {
+    width: 90%; /* Maximum width of the content */
+    max-width: 600px; /* Limit width for larger screens */
+}
+
+/* Content styles */
+.content {
+    display: none; /* Hide all content initially */
+    background-color: #1e1e1e; /* Dark background for content */
+    padding: 20px;
+    border-radius: 5px; /* Rounded corners for content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+/* Active content */
+.content.active {
+    display: block; /* Show the active content */
+}
